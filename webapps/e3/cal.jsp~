@@ -1,0 +1,14 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"  contentType="text/html; charset=UTF-8"%>
+<%
+	//将下面代码提升，使之稳定不出错
+	String str = request.getParameter("number");
+	int number = Integer.parseInt(str);
+%>
+数字<%=number%>的立方为：<%=number*number*number %>
+<HR>
+<a href="cal.jsp?number=1">链接1</a>
+<a href="cal.jsp?number=2">链接2</a>
+<a href="cal.jsp?number=3">链接3</a>
+<a href="cal.jsp?number=4">链接4</a>
+<a href="cal.jsp?number=66666">链接5</a>
+

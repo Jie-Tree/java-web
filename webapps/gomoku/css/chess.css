@@ -1,0 +1,64 @@
+cn {
+	font-family: "微软雅黑";
+}
+
+body {
+	background-size:cover;
+}
+
+#chessBoard {
+	background-color: #F8CE9D;
+	float: left;
+	/*box-shadow: 10px 10px 16px #888;
+    -webkit-box-shadow: 10px 10px 16px #888;
+    -moz-box-shadow: 10px 10px 16px #888;*/
+    margin-left: 80px;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.hideit {
+	display: none;
+}
+
+#infoBoard div {
+	width: 500px;
+	float: right;
+	text-align: center;
+    margin-right: 80px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+
+#footer a {
+  color: #fff;
+}
+
+body {
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+.inner {
+	padding-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Handle the widths */
+  .mastfoot {
+  	width: 100%;
+  }
+}

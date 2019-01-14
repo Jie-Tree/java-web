@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+
+    <title>database-2016150113</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/demo.css">
+    <link href="css/page.css" rel="stylesheet">
+    <style type="text/css">
+        .box{
+            width: 20px;
+            height: 20px;
+            padding: 2px;
+            border:1px solid #ccc;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+
+<br>
+<br>
+<br>
+
+<br>
+<div class="link">
+    <a href="timeAndTables.jsp?data=cus">Customers</a>
+    <a href="timeAndTables.jsp?data=emp">Employees</a>
+    <a href="timeAndTables.jsp?data=log">Logs</a>
+    <a href="timeAndTables.jsp?data=pro">Products</a>
+    <a href="timeAndTables.jsp?data=pur">Purchases</a>
+    <a href="timeAndTables.jsp?data=sup">Suppliers</a>
+</div>
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12" style="padding:2em 0;">
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped" id="mytable">
+                    <thead>
+                    <tr>
+                        <td>cid</td>
+                        <td>cname</td>
+                        <td>city</td>
+                        <td>visits_made</td>
+                        <td>last_visit_time</td>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td id="tdcid"><%=tl.getCid() %></td>
+                        <td id="tdcname"><%=tl.getCname() %></td>
+                        <td id="tdcity"><%=tl.getCity() %></td>
+                        <td id="tdvisits_made"><%=tl.getVisits_made() %></td>
+                        <td id="tdlast_visit_time"><%=tl.getLast_visit_time() %></td>
+                        <td> <input id="editbutton" type="button" value="编辑"><input id="delbutton" type="button" value="删除"></td>
+                    </tr>
+                    <tr>
+                        <td id="tdcid1"><%=tl.getCid() %></td>
+                        <td id="tdcname1"><%=tl.getCname() %></td>
+                        <td id="tdcity1"><%=tl.getCity() %></td>
+                        <td id="tdvisits_made1"><%=tl.getVisits_made() %></td>
+                        <td id="tdlast_visit_time1"><%=tl.getLast_visit_time() %></td>
+                        <td> <input id="editbutton1" type="button" value="编辑"><input id="delbutton" type="button" value="删除"></td>
+                    </tr>
+
+                </table>
+            </div>
+
+        </div>
+        <div class="col-md-12"  style="padding-bottom:2em;">
+            <button class="btn btn-info" id="add"><i class="fa fa-plus"></i> 添加新行</button>
+        </div>
+    </div>
+</div>
+
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+    <p>数据库  实验３  游伟杰  2016150113</p>
+    <p>网页参考来源：<a href="http://www.lanrenzhijia.com/" target="_blank">http://www.lanrenzhijia.com</a></p>
+</div>
+</body>
+</html>

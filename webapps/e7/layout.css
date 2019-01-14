@@ -1,0 +1,101 @@
+
+.all{
+    position: relative;
+    width: 1300px;
+    height: auto;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+body{
+    background: url(login-bg-autumn.jpg) no-repeat fixed;
+    background-size: 105% 105%;
+}
+
+.login{
+    background: rgba(255, 255, 255, .9);
+    padding-top: 5px;
+}
+
+.bottom{
+    margin-top: 200px;
+}
+.bottom_left{
+    width: 755px;
+}
+.bottom_right{
+    margin-left: 555px;
+    width: 339px;
+}
+.img_title{
+    text-align: center;
+}
+.login_form{
+    padding: 0px 55px 22px 35px;
+}
+.auth_icon_user{
+    background: url(icon.png) 6px -73px no-repeat;
+}
+.auth_icon_pwd {
+    background: url(icon.png) -19px -73px no-repeat;
+}
+.auth_icon {
+    background-color: rgb(242, 242, 242);
+    border: 1px solid #ccc;
+    border-right: none;
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+.login_form p {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+.auth_input {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    font-size: 14px;
+    width: 209px;
+    margin: 0;
+    color: #676a6c;
+}
+
+.full_width {
+    display: block;
+}
+.primary {
+    background-color: #1ab394;
+    border-color: #1ab394;
+}
+.auth_login_btn {
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 3px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    width: 100%;
+}
+.auth_error {
+    position: absolute;
+    color: #ED5565;
+    font-size: 12px;
+    top: 33px;
+    left: 45px;
+}
+.login_form label{
+    font-family: 'Microsoft YaHei';
+    color: #676A6C;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.auth_register {
+    text-decoration: none;
+    color: #6c2a32;
+    font-size: 20px;
+}
