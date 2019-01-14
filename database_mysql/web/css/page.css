@@ -1,0 +1,49 @@
+
+body{
+  background: #E2E4CB;
+  text-align: center;
+}
+
+.top{
+    font-size: 20pt;
+    text-align: center;
+    margin: 5px auto;
+}
+.error{
+    color: red;
+    font-size: 10pt;
+    text-align: left;
+}
+.link{
+    gap: normal;
+    font-size: 15pt;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.form_sub{
+    margin: 0 auto;
+}
+
+table
+{
+    background: #fdffd5;
+    width: 700px;
+    margin: auto;
+    align-content: center;
+    border-collapse:collapse;
+}
+
+table, td, th
+{
+    margin: 0 auto;
+    border:1px solid black;
+}
+
+input{
+    background: #fdffd5;
+    border: none;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
