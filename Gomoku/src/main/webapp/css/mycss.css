@@ -1,0 +1,66 @@
+.chatBoard {
+    margin: 0;
+    position: relative;
+    width: 450px;
+    height: 510px;
+    background-color: #fff6ac;
+    color: black;
+}
+body{
+    width: 100%;
+    margin:0;
+}
+#divbg{
+    width: 100%;
+    height: 100%;
+}
+
+#divbar{
+    margin-left: 0px;
+    margin-top: 100px;
+    border: solid 1px;
+}
+
+#divchessboard{
+    margin-left: 300px;
+    /*margin-left: 20%;*/
+    margin-top: 10px;
+    float: left;
+    height: 640px;
+    width: 640px;
+}
+
+#divinfoboard{
+    margin-left: 1000px;
+    /*margin-left: 70%;*/
+    margin-top: 10px;
+    height: 680px;
+    width: 450px;
+}
+
+#divgst{
+    margin-top: 20px;
+    float: left;
+    height: 50px;
+    width: 450px;
+}
+
+#divchatboard{
+    margin-top: 10px;
+    float: left;
+    width: 450px;
+    height: 510px;
+}
+.inputmessage{
+    margin-top: 0px;
+    width: 450px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#divbutton{
+    margin-top: 30px;
+    float: left;
+    width: 450px;
+    height: 100px;
+}
